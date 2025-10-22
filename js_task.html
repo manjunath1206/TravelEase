@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Expenses</title>
+</head>
+<body>
+
+<script>
+let total = 0;
+
+for (let day = 1; day <= 7; day++) {
+  let expense = parseFloat(prompt(`Enter expense for day ${day}: ₹`)) || 0;
+  total += expense;
+}
+
+let average = total / 7;
+
+alert(`Total Expense: ₹${total.toFixed(2)}\nAverage Daily Expense: ₹${average.toFixed(2)}`);
+</script>
+
+</body>
+</html>
