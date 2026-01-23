@@ -42,5 +42,9 @@
         color: #fff;
     }
 
-   
+   #exp{
+    height: 50px;
+    width: 50px;
+    border-radius: 90px;
+   }
     
