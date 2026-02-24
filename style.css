@@ -1,6 +1,6 @@
   
   .navbar {
-      background-color: #0077b6;
+      background-color: #042a3f;
       
     }
     nav{
@@ -8,7 +8,7 @@
     }
 
     .navbar-brand {
-      color: #fff !important;
+      color: #e2dada !important;
       font-size: 1.8rem;
       font-weight: bold;
       letter-spacing: 1px;
@@ -46,5 +46,9 @@
     height: 50px;
     width: 50px;
     border-radius: 90px;
+   }
+
+   .card-body{
+    
    }
     
